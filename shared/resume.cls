@@ -22,6 +22,9 @@
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
 \usepackage{ifthen} % Required for ifthenelse statements
 
+\usepackage{mathspec} % So I can define the font
+\setmainfont{Palatino} % Set the font to something pretty
+
 \pagestyle{empty} % Suppress page numbers
 
 %----------------------------------------------------------------------------------------
