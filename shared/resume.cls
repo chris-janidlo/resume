@@ -124,6 +124,7 @@
 \newcommand{\additionalJobTitle}[2]{
   \end{list}
   \textit{#1} \hfill \textit{#2} % Italic job title and date
+  \smallskip
   \begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
   \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
 }
