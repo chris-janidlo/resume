@@ -1,10 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Medium Length Professional CV - RESUME CLASS FILE
-%
-% This template has been downloaded from:
+% This template was originally downloaded from:
 % http://www.LaTeXTemplates.com
-%
-% This class file defines the structure and design of the template. 
 %
 % Original header:
 % Copyright (C) 2010 by Trey Hunner
