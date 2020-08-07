@@ -109,12 +109,14 @@
 %	WORK EXPERIENCE FORMATTING
 %----------------------------------------------------------------------------------------
 
+\def \middot {\raisebox{0.25ex}{\tiny$\bullet$}}
+
 \newenvironment{rSubsection}[4]{ % 4 input arguments - company name, location, job title, and year(s) employed
   {\bf #1} \hfill {#2} % Bold company name and location on the right
   \\
   \textit{#3} \hfill \textit{#4} % Italic job title and date
   \smallskip
-  \begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+  \begin{list}{\middot}{\leftmargin=0em} % \cdot used for bullets, no indentation
   \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
 }{
   \end{list}
@@ -125,7 +127,7 @@
   \end{list}
   \textit{#1} \hfill \textit{#2} % Italic job title and date
   \smallskip
-  \begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+  \begin{list}{\middot}{\leftmargin=0em} % \cdot used for bullets, no indentation
   \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
 }
 
