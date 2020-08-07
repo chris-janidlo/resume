@@ -34,7 +34,7 @@
 \def \name#1{\def\@name{#1}} % Defines the \name command to set name
 \def \@name {} % Sets \@name to empty by default
 
-\def \addressSep {$\diamond$} % Set default address separator to a diamond
+\def \addressSep {$\cdot$} % Set default address separator to a cdot
 
 % One, two or three address lines can be specified 
 \let \@addressone \relax
