@@ -1,0 +1,125 @@
+% This template was originally been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
+
+\name{Chris Janidlo} % Your name
+\address{331 W 4th St Apt 2 \\ Cincinnati, OH 45202} % Your address
+\address{(513) 550 9452 \\ christopherjanidlo@gmail.com} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+\textbf{University of Rochester} \hfill \textit{May 2019} \\ 
+B.S. in Computer Science \\
+Minor in Music \\
+Concentration in Linguistics \smallskip \\
+Teaching Assistant, Artificial Intelligence (core course) \\
+Research Assistant II - Fracking Research at Medical Center
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Sogeti USA}{Cincinnati, OH}{Consultant at Taylor Healthcare}{May 2020 - Present}
+\item Delivering bugfixes and new features in mature ASP.NET web application
+\item Identified and fixed multiple performance issues, leading to multi-second reduction in startup time
+\additionalJobTitle{Consultant at GE Aviation}{September 2019 - May 2020}
+\item Developed low-level C++ codebase to support future business expansions, and designed/coded high-level Python and Java wrappers around it
+\item On team maintaining critical user-facing web application with zero-downtime requirement
+\item Fulfilled DevOps role for QA environment, delivering version upgrades and user support
+\item Implemented features and process changes reducing QA deploy time from hours to <10 minutes
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Galahad AI}{Rochester, NY}{Software Engineering Intern}{May 2018 - September 2018}
+\item Created talking 3D avatar for a chatbot
+\item Added functionality to process and synthesize speech
+\item Delivered features and fixed issues in existing Node.js code base
+\item Designed avatar’s 3D model, with animated facial expressions and 11 distinct mouth shapes for speech
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{URMC Clinical Education Initiative}{Rochester, NY}{Mixed Reality App Developer}{December 2017 - June 2018}
+\item Built AR application for Microsoft HoloLens using Unity
+\item Designed gameplay to train doctors on drug-to-drug interactions in the treatment of HIV
+\item Presented and demoed application at medical conference
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Ohio Valley Flooring}{Cincinnati, OH}{IT Intern}{June 2016 - August 2016}
+\item Built consumer-facing web application in JavaScript/HTML + jQuery for identifying sales territory
+\end{rSubsection}
+
+\end{rSection}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages		& C\#, C/C++, JavaScript, Python, Java, SQL, Lua, Haskell \\
+Game Engines	& Unity, Unreal, Game Maker, Godot \\
+Media			& Blender, Adobe Creative Cloud (especially Photoshop, Fuse), Cubase \\
+Databases		& Oracle, Microsoft, SQLite \\
+Tools			& Git, Visual Studio \\
+Web				& Node.js, React, ASP.NET, jQuery, RESTful APIs, JSON
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Selected Projects}
+
+\begin{rProject}{Reminiscence: Final Project for DMS 120, Game Design}
+\item In a team of five, created top-down video game (in GameMaker) that allows the player to rewind time
+\item Wrote all code and scripts as sole developer, while collaborating closely with teammates
+\item Contributed design, including time-rewind game mechanic and User Experience flow
+\end{rProject}
+
+\begin{rProject}{Journo: Chat-Like Web Application UI for Interactive Fiction}
+\item Used React to develop mock chat application for displaying and interacting with IF games
+\item Developed scripting system based off Ink for providing application with story content
+\end{rProject}
+
+\begin{rProject}{crass-sandwich.com: Personal Website}
+\item Built portfolio website using Node.js and Hugo, hosted through GitHub Pages
+\end{rProject}
+
+\begin{rProject}{Selected Weekly Game Jam Entries (each made with Unity in one week)}
+\item WitchOS – mock operating system with command line \& window management. Solo developer
+\item Stalaria – 3D spaceflight game with procedurally generated galaxy. Solo developer
+\item Oh My Dragon – pet simulator with glider-physics minigame. In team with writer, composer, artist
+\end{rProject}
+\end{rSection}
+
+\end{document}
