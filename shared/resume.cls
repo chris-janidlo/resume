@@ -131,6 +131,22 @@
   \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
 }
 
+%----------------------------------------------------------------------------------------
+%	PROJECTS FORMATTING
+%----------------------------------------------------------------------------------------
+
+\newenvironment{rProject}[1]{
+  {\bf #1}
+  \smallskip
+  \begin{list}{\middot}{\leftmargin=0em} % \cdot used for bullets, no indentation
+  \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+}{
+  \end{list}
+  \vspace{0.5em} % Some space after the list of bullet points
+}
+
+% TODO: factor out list-y stuff
+
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
 \def\namesize{\huge} % Size of the name at the top of the document
 \def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
